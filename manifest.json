@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+    "short_name": "mokinio projektas",
+    "name": "mokinio projektas",
+    "description": "mokinio projektas",
+    "icons": [{
+        "src": "/favicon.ico",
+        "sizes": "128x128",
+        "type": "image/png"
+    }],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#fbfbfb",
+    "background_color": "#121212"
+}

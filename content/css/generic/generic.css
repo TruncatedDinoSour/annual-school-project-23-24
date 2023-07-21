@@ -1,0 +1,111 @@
+/* im not a frontend dev lol */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #121212;
+    color: #fbfbfb;
+    font-family: sans-serif;
+}
+
+ul[role="list"],
+ol[role="list"] {
+    list-style: none;
+}
+
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+html {
+    margin: auto;
+    max-width: 1000px;
+    padding: 1em;
+}
+
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+h3 {
+    font-style: italic;
+    margin: 0.5em;
+}
+
+form {
+    padding: 2em;
+}
+
+blockquote {
+    margin-bottom: 0.1em;
+}
+
+form > div {
+    margin-bottom: 1em;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 0.2em;
+    border: none;
+    border-bottom: 1px whitesmoke solid;
+    outline: none;
+}
+
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+button {
+    margin-top: 0.9em;
+    padding: 0.5em;
+    width: 100%;
+    background-color: #202020;
+    border: none;
+    cursor: pointer;
+    transition: filter 0.2s ease-in-out;
+}
+
+button:hover,
+button:focus {
+    filter: brightness(130%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
