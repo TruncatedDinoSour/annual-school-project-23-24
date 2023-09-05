@@ -3,13 +3,10 @@
 // hi, please dont fuck with the database, if u want the src for the frontend see https://ari-web.xyz/gh/vgp.ari-web.xyz danke :3
 
 let today = document.createElement("input");
-
 today.type = "text";
 today.placeholder = "Šiandiena aš jaučiuosi...";
 
 let recs = document.createElement("textarea");
-
-recs.type = "text";
 recs.placeholder = "Gerai/Blogai išsimiegu, rūkau/nerūkau, ...";
 
 const FREQ_RATING = [
