@@ -1,11 +1,16 @@
 "use strict";
 
-// for fellow developers looking at this, this will be released on https://ari-web.xyz/gh/vgp.ari-web.xyz at the end of the project
+// hi, please dont fuck with the database, if u want the src for the frontend see https://ari-web.xyz/gh/vgp.ari-web.xyz danke :3
 
 let today = document.createElement("input");
 
 today.type = "text";
 today.placeholder = "Šiandiena aš jaučiuosi...";
+
+let recs = document.createElement("textarea");
+
+recs.type = "text";
+recs.placeholder = "Gerai/Blogai išsimiegu, rūkau/nerūkau, ...";
 
 const FREQ_RATING = [
     "Kasdien",
@@ -29,7 +34,7 @@ const RATING = [
 const YES_NO = ["Taip", "Dažniausiai taip", "Dažniausiai ne", "Ne"];
 
 const QUIZ = {
-    "Jūsų lytinė orientacija": ["Moteris", "Vyras", "Kita"],
+    "Jūsų lytis": ["Moteris", "Vyras", "Kita"],
     "Jūsų gimnazinė klasė": ["I", "II", "III", "IV"],
     "Kaip dažnai jaučiatės prastai (pervargę, prislėgti, liūdni, ...)?": FREQ_RATING,
     "Kaip gerai sutariate su savo bendraklasiais ir mokytojais?": RATING,
@@ -57,6 +62,7 @@ const QUIZ = {
     ],
     "Kaip įsivertintumėte savo miego kokybę?": RATING,
     "Kaip jaučiatės šiandien?": today,
+    "Ką tu darai kad tavo rezultatai tokie, o ne kitokie? (išskirkite kabliukais)": recs,
 };
 const QUIZ_SIZE = Object.keys(QUIZ).length;
 
