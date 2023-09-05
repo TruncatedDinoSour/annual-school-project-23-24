@@ -6,7 +6,8 @@ let today = document.createElement("input");
 today.type = "text";
 today.placeholder = "Šiandiena aš jaučiuosi...";
 
-let recs = document.createElement("textarea");
+let recs = document.createElement("input");
+recs.type = "text";
 recs.placeholder = "Gerai/Blogai išsimiegu, rūkau/nerūkau, ...";
 
 const FREQ_RATING = [
