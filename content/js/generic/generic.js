@@ -34,11 +34,11 @@ const YES_NO = ["Taip", "Dažniausiai taip", "Dažniausiai ne", "Ne"];
 const QUIZ = {
     "Tavo lytis": ["Moteris", "Vyras", "Kita"],
     "Tavo gimnazinė klasė": ["I", "II", "III", "IV"],
-    "Kaip dažnai jaučiatiesi prastai (pervargę, prislėgti, liūdni, ...)?": FREQ_RATING,
+    "Kaip dažnai jautiesi prastai (pervargę, prislėgti, liūdni, ...)?": FREQ_RATING,
     "Kaip gerai sutari su savo bendraklasiais ir mokytojais?": RATING,
-    "Ar tau būna sunku susikaupti pamokos metu ar atliekant namų darbus?":
+    "Ar tau būna sunku susikaupti pamokos metu arba atliekant namų darbus?":
         YES_NO,
-    "Ar jaučiatiesi, kad gaunate pakankamai socialinės paramos ir pagalbos savo aplinkoje (mokykloje, namuose, ...)?":
+    "Ar jautiesi, kad gaunate pakankamai socialinės paramos ir pagalbos savo aplinkoje (mokykloje, namuose, ...)?":
         YES_NO,
     "Kiek laiko per dieną skiri mankštai ir fiziniam aktyvumui?": [
         "0-30 min.",
