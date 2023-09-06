@@ -32,35 +32,35 @@ const RATING = [
 const YES_NO = ["Taip", "Dažniausiai taip", "Dažniausiai ne", "Ne"];
 
 const QUIZ = {
-    "Jūsų lytis": ["Moteris", "Vyras", "Kita"],
-    "Jūsų gimnazinė klasė": ["I", "II", "III", "IV"],
-    "Kaip dažnai jaučiatės prastai (pervargę, prislėgti, liūdni, ...)?": FREQ_RATING,
-    "Kaip gerai sutariate su savo bendraklasiais ir mokytojais?": RATING,
-    "Ar jums būna sunku susikaupti pamokos metu ar atliekant namų darbus?":
+    "Tavo lytis": ["Moteris", "Vyras", "Kita"],
+    "Tavo gimnazinė klasė": ["I", "II", "III", "IV"],
+    "Kaip dažnai jaučiatiesi prastai (pervargę, prislėgti, liūdni, ...)?": FREQ_RATING,
+    "Kaip gerai sutari su savo bendraklasiais ir mokytojais?": RATING,
+    "Ar tau būna sunku susikaupti pamokos metu ar atliekant namų darbus?":
         YES_NO,
-    "Ar jaučiate, kad gaunate pakankamai socialinės paramos ir pagalbos savo aplinkoje (mokykloje, namuose, ...)?":
+    "Ar jaučiatiesi, kad gaunate pakankamai socialinės paramos ir pagalbos savo aplinkoje (mokykloje, namuose, ...)?":
         YES_NO,
-    "Kiek laiko per dieną skiriate mankštai ir fiziniam aktyvumui?": [
+    "Kiek laiko per dieną skiri mankštai ir fiziniam aktyvumui?": [
         "0-30 min.",
         "30-60 min.",
         "1-2 val.",
         "2-3 val.",
         "3-4 val. ir daugiau",
     ],
-    "Ar jaučiate spaudimą išlaikyti aukštus akademinius rezultatus?": YES_NO,
-    "Ar randate laiko užsiimti savo norima veikla?": YES_NO,
-    "Kaip įsivertintumėte savo emocinę sveikatą?": RATING,
-    "Ar manote, kad gimnazija sudaro palankią aplinką mokinių emociniai gerovei?": YES_NO,
-    "Kaip dažnai susiduriate su sunkumais kontroliuojant savo nerimą?":
+    "Ar jauti spaudimą išlaikyti aukštus akademinius rezultatus?": YES_NO,
+    "Ar randi laiko užsiimti savo norima veikla?": YES_NO,
+    "Kaip įsivertintum savo emocinę sveikatą?": RATING,
+    "Ar manai, kad gimnazija sudaro palankią aplinką mokinių emociniai gerovei?": YES_NO,
+    "Kaip dažnai susiduri su sunkumais kontroliuojant savo nerimą?":
         FREQ_RATING,
-    "Kaip jaučiatės apie save (savivertė)?": RATING,
-    "Kam teikiate pirmenybę: mokyklai ar savijautai?": [
+    "Kaip jautiesi apie save (savivertė)?": RATING,
+    "Kam teiki pirmenybę: mokyklai ar savijautai?": [
         "Mokyklai",
         "Savijautai",
     ],
-    "Kaip įsivertintumėte savo miego kokybę?": RATING,
-    "Kaip jaučiatės šiandien?": today,
-    "Ką tu darai kad tavo rezultatai tokie, o ne kitokie? (išskirkite kabliukais)": recs,
+    "Kaip įsivertintum savo miego kokybę?": RATING,
+    "Ką darai dėl savo emocinės gerovės?": recs,
+    "Kaip jautiesi šiandien?": today,
 };
 const QUIZ_SIZE = Object.keys(QUIZ).length;
 
