@@ -10,13 +10,7 @@ let recs = document.createElement("input");
 recs.type = "text";
 recs.placeholder = "Gerai/Blogai išsimiegu, rūkau/nerūkau, ...";
 
-const FREQ_RATING = [
-    "Kasdien",
-    "Dažnai",
-    "Kartais",
-    "Retai",
-    "Niekada",
-];
+const FREQ_RATING = ["Kasdien", "Dažnai", "Kartais", "Retai", "Niekada"];
 
 const RATING = [
     "Labai gerai",
@@ -27,11 +21,14 @@ const RATING = [
 ];
 
 const YES_NO = ["Taip", "Kartais", "Ne"];
+const YES_NO_IDK = ["Taip", "Nežinau", "Ne"];
+const YES_NO_FREQ = ["Taip", "Dažniausiai taip", "Dažniausiai ne", "Ne"];
 
 const QUIZ = {
     "Tavo lytis": ["Moteris", "Vyras", "Kita"],
     "Tavo gimnazinė klasė": ["I", "II", "III", "IV"],
-    "Kaip dažnai jautiesi prastai (pervargęs, prislėgtas, liūdnas, ...)?": FREQ_RATING,
+    "Kaip dažnai jautiesi prastai (pervargęs, prislėgtas, liūdnas, ...)?":
+        FREQ_RATING,
     "Kaip gerai sutari su savo bendraklasiais ir mokytojais?": RATING,
     "Ar tau būna sunku susikaupti pamokos metu arba atliekant namų darbus?":
         YES_NO,
@@ -43,18 +40,16 @@ const QUIZ = {
         "2-3 val.",
         "3-4 val. ir daugiau",
     ],
-    "Ar jauti spaudimą išlaikyti aukštus akademinius rezultatus?": YES_NO,
-    "Ar randi laiko užsiimti savo norima veikla?": YES_NO,
+    "Ar jauti spaudimą išlaikyti aukštus akademinius rezultatus?": YES_NO_FREQ,
+    "Ar randi laiko užsiimti savo norima veikla?": YES_NO_FREQ,
     "Kaip įsivertintum savo emocinę sveikatą?": RATING,
-    "Ar manai, kad gimnazija sudaro palankią aplinką mokinių emocinei gerovei?": YES_NO,
+    "Ar manai, kad gimnazija sudaro palankią aplinką mokinių emocinei gerovei?":
+        YES_NO_IDK,
     "Kaip dažnai susiduri su sunkumais kontroliuojant savo nerimą?":
         FREQ_RATING,
     "Kaip jautiesi apie save (savivertė)?": RATING,
-    "Kam teiki pirmenybę: mokyklai ar savijautai?": [
-        "Mokyklai",
-        "Savijautai",
-    ],
-    "Kaip įsivertintum savo miego kokybę?": RATING,
+    "Kam teiki pirmenybę: mokyklai ar savijautai?": ["Mokyklai", "Savijautai"],
+    "Kaip įsivertintum savo miego kokybę?": ["Gerai", "Vidutiniškai", "Blogai"],
     "Ką darai dėl savo emocinės gerovės?": recs,
     "Kaip jautiesi šiandien?": today,
 };
