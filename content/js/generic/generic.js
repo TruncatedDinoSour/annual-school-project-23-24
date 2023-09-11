@@ -35,7 +35,7 @@ const QUIZ = {
     "Kaip gerai sutari su savo bendraklasiais ir mokytojais?": RATING,
     "Ar tau būna sunku susikaupti pamokos metu arba atliekant namų darbus?":
         YES_NO,
-    "Ar jautiesi, kad gaunate pakankamai socialinės paramos ir pagalbos savo aplinkoje (mokykloje, namuose, ...)?":
+    "Ar manai, kad gauni pakankamai socialinės paramos ir pagalbos savo aplinkoje (mokykloje, namuose, ...)?":
         YES_NO,
     "Kiek laiko per dieną skiri mankštai ir fiziniam aktyvumui?": [
         "Mažiau nei valandą",
