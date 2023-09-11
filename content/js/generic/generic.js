@@ -15,34 +15,30 @@ const FREQ_RATING = [
     "Dažnai",
     "Kartais",
     "Retai",
-    "Labai retai",
     "Niekada",
 ];
 
 const RATING = [
-    "Puikiai",
     "Labai gerai",
     "Gerai",
-    "Gali būti geriau",
+    "Vidutiniškai",
     "Blogai",
     "Labai blogai",
-    "Tragiškai",
 ];
 
-const YES_NO = ["Taip", "Dažniausiai taip", "Dažniausiai ne", "Ne"];
+const YES_NO = ["Taip", "Kartais", "Ne"];
 
 const QUIZ = {
     "Tavo lytis": ["Moteris", "Vyras", "Kita"],
     "Tavo gimnazinė klasė": ["I", "II", "III", "IV"],
-    "Kaip dažnai jautiesi prastai (pervargę, prislėgti, liūdni, ...)?": FREQ_RATING,
+    "Kaip dažnai jautiesi prastai (pervargęs, prislėgtas, liūdnas, ...)?": FREQ_RATING,
     "Kaip gerai sutari su savo bendraklasiais ir mokytojais?": RATING,
     "Ar tau būna sunku susikaupti pamokos metu arba atliekant namų darbus?":
         YES_NO,
     "Ar jautiesi, kad gaunate pakankamai socialinės paramos ir pagalbos savo aplinkoje (mokykloje, namuose, ...)?":
         YES_NO,
     "Kiek laiko per dieną skiri mankštai ir fiziniam aktyvumui?": [
-        "0-30 min.",
-        "30-60 min.",
+        "Mažiau nei valandą",
         "1-2 val.",
         "2-3 val.",
         "3-4 val. ir daugiau",
@@ -50,7 +46,7 @@ const QUIZ = {
     "Ar jauti spaudimą išlaikyti aukštus akademinius rezultatus?": YES_NO,
     "Ar randi laiko užsiimti savo norima veikla?": YES_NO,
     "Kaip įsivertintum savo emocinę sveikatą?": RATING,
-    "Ar manai, kad gimnazija sudaro palankią aplinką mokinių emociniai gerovei?": YES_NO,
+    "Ar manai, kad gimnazija sudaro palankią aplinką mokinių emocinei gerovei?": YES_NO,
     "Kaip dažnai susiduri su sunkumais kontroliuojant savo nerimą?":
         FREQ_RATING,
     "Kaip jautiesi apie save (savivertė)?": RATING,
