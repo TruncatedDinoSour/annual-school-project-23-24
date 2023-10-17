@@ -1,4 +1,4 @@
-# [vgp.ari-web.xyz](https://vgp.ari-web.xyz/)
+# annual school project 2023-2024
 
 > my annual school project ( with a friend ), 2023-2024 academic yr
 
@@ -15,5 +15,5 @@ and the goal is to raise awareness about mental and emotional health in the gymn
 # schedule ( not final most likely )
 
 -   2023/09/01 - 09/30 -- setup, beginning
--   2023/10/01 - 2024/04-05/01 -- main part
+-   ~2023/10/21 - 2024/04-05/01 -- main part
 -   2024/06-07/01 -- end of the project
