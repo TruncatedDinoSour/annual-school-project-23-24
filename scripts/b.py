@@ -6,8 +6,8 @@ from wordcloud import STOPWORDS, ImageColorGenerator, WordCloud
 
 df = pd.read_csv("a.csv")
 
-text = " ".join(map(str, df["Kaip jautiesi šiandien?"])).replace("nan", "")
-text1 = " ".join(map(str, df["Ką darai dėl savo emocinės gerovės?"])).replace("nan", "")
+text = " ".join(map(str, df["Kaip jautiesi šiandien?"])).replace("nan", "").lower()
+text1 = " ".join(map(str, df["Ką darai dėl savo emocinės gerovės?"])).replace("nan", "").lower()
 
 # Load your mask image (circle.png)
 circle_mask = np.array(Image.open("circle.png"))
